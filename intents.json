@@ -1,0 +1,46 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["Hi", "What's up?", "How are you?", "Is anyone there?", "Hello", "Hey", "Good day"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "What can I do for you?", "Hi there, how can I help?"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["Bye", "I'm leaving", "Have a good day", "cya", "Ciao!", "See ya", "Later", "See you later", "Goodbye"],
+    "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon.", "Goodbye", "Take Care"]
+    },
+    {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks so much!", "Thanks for the help", "Thank a bunch!", "Thanks a lot"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "age",
+    "patterns": ["how old are you", "what is your age", "how old is your platform"],
+    "responses": ["I'm 21 years old!", "21 years!", "My owner Ibiza is 21 years old!"]
+    },
+    {"tag": "hours",
+    "patterns": ["What hours are you open?", "What are your hours?", "When are you open?", "What are your hours of operation?", "hours of operation", "When are you guys open?"],
+    "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day", "We are open 9am-9pm every day", "We are open 24/7", "24/7"]
+    },
+    {"tag": "payments",
+    "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+    "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+    },
+    {"tag": "opentoday",
+    "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+    "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+    },
+    {"tag": "greeting",
+    "patterns": ["good morning", "good afternoon", "good evening"],
+    "responses": ["Good Morning", "Good Afternoon", "Good Evening"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?", "Who are you?", "What are you called?"],
+    "responses": ["You can call me Ibizabot.", "I'm Ibizabot!", "I'm Ibizabot, your virtual assistant."]
+    },
+    {"tag": "shop",
+    "patterns": ["where is your shop", "where is your store", "where is your location", "where are you located", "where is your office", "What do you sell?", "What do you do?", "What is this place?"],
+    "responses": ["We are a virtual assistant company and you can find us online at www.ibizabot.com", "We are a virtual assistant company and you can find us online at www.ibizabot.com"]
+    },
+    {"tag": "stocks",
+    "patterns": ["What stock do i own?", "What is my stock?", "What is my stock worth?", "What is my stock price?", "What is my stock price today?", "What is my stock price right now?"],
+    "responses": ["You own 100 shares of Apple Inc. (AAPL) worth $12,000.00", "You own 100 shares of Apple Inc. (AAPL) worth $12,000.00"]
+    }
+]}
